@@ -22,7 +22,7 @@ $check="SELECT * from user_details where username='".$username."' AND password='
 $result=mysqli_query($conn,$check);
 if(mysqli_num_rows($result)==1)
 {
-    header("Location:https://www.youtube.com/watch?v=aIsu9SPcGbU");
+    header("Location:http://localhost:7882/DBMS-project/main page.php");
 
 }
 

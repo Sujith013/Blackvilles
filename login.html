@@ -10,6 +10,11 @@
     <title>Blackvilles-Login</title>
 </head>
 <body>
+    <script>
+        var x=document.getElementById("n");
+        console.log(x);
+        </script>
+    
 <div style="display: flex;margin-left: 470px;">
 <img src="logo1.png" alt="logohere" width="150px" height="200px">
 <div style="margin-top: 50px;margin-left: 20px;" class="c">
@@ -39,7 +44,7 @@
 <div>
     <form action="login.php" method="POST" >
     
-     <input class="f" minlength="6" required autofocus type="text" name="username" style="margin-left: 500px;margin-top:90px;" placeholder="USERNAME" title="Min:6 char">
+     <input class="f" minlength="6" required autofocus type="text" name="username" id="n" style="margin-left: 500px;margin-top:90px;" placeholder="USERNAME" title="Min:6 char">
      <br><br>
      <input class="f" required minlength="6" type="password" name="pass" style="margin-left: 800px;" placeholder="PASSWORD" title="Min:6 char">
      <br><br><br><br><br>

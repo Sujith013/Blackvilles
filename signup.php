@@ -29,7 +29,7 @@ $check="SELECT * from user_details where username='".$username."' OR email='".$e
 $result=mysqli_query($conn,$check);
 if(mysqli_num_rows($result)!=1)
 {
-$insert="INSERT INTO user_details(username,password,email,phone,addressl1,addressl2,city,pincode,date) VALUES('$username','$password','$email','$phone','$addressl1','$addressl2','$city','$pincode','$DOB')";
+$insert="INSERT INTO user_details(Username,Password,Email,Phone,Addressl1,Addressl2,City,Pincode,DOB) VALUES('$username','$password','$email','$phone','$addressl1','$addressl2','$city','$pincode','$DOB')";
 $run=mysqli_query($conn,$insert);
 
 if($run)
