@@ -91,7 +91,7 @@ $d=strtotime("+3 days");
 
 $host="localhost";
 $dbusername="root";
-$dbpassword="Jithtn@0012";
+$dbpassword="";
 $dbname="BlackVilles";
 
 $conn=new mysqli($host,$dbusername,$dbpassword,$dbname,"3307");
